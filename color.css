@@ -1,0 +1,130 @@
+:root{
+    --Primary: #2A2A2A;
+    --Secondary: #F2F2F2;
+    --Accent: #FFC107;
+}
+h1,h2,h3,p{
+    color: var(--Accent);
+}
+body{
+    background-color: var(--Primary);
+}
+.Nav-links{
+    background-color: var(--Primary);
+    background: var(--Primary);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border: 1px solid var(--Secondary);
+}
+.Nav-links a{
+    color: var(--Accent);
+}
+.Hero-content{
+    background-color: var(--Primary);
+}
+.Hero-info{
+    background: rgba( 42, 42, 42, 0.25 );
+    box-shadow: 0 8px 32px 0 var(--Accent);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid var(--Secondary);
+}
+.MyImgCon img{
+    border-radius: 360px;
+}
+.about{
+    background-color: var(--Primary);
+}
+.about_me_info{
+    background: rgba( 42, 42, 42, 0.25 );
+    box-shadow: 0 8px 32px 0 var(--Accent);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid var(--Secondary);
+}
+.lang1, .lang2, .lang3, .lang4{
+    background: rgba( 42, 42, 42, 0.25 );
+    box-shadow: 0 8px 32px 0 var(--Accent);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid var(--Secondary);
+}
+.lang1-con, .lang2-con, .lang3-con, .lang4-con{
+    background: var(--Secondary);
+    box-shadow: 0 8px 32px 0 var(--Primary);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid var(--Secondary);
+}
+.Skills{
+    background-color: var(--Primary);
+}
+.contact-me{
+    background-color: var(--Primary);
+}
+.form-con{
+    background-color: var(--Secondary);
+    background: var(--Primary);
+    box-shadow: 0 8px 32px 0 var(--Accent);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid var(--Secondary);
+}
+.socials{
+    background-color: var(--Secondary);
+    background: var(--Primary);
+    box-shadow: 0 8px 32px 0 var(--Accent);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid var(--Secondary);
+}
+.socials a{
+    color: var(--Accent);
+}
+.fb i, .email i, .pnum i{
+    color: var(--Accent);
+}
+.send, .cancel{
+    color: var(--Accent);
+    margin-top: 2rem;
+    background-color: var(--Primary);
+    background: var(--Primary);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid var(--Secondary);
+}
+.projects1, .projects2, .projects3{
+    background-color: var(--Secondary);
+    background: var(--Primary);
+    box-shadow: 0 8px 32px 0 var(--Accent);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid var(--Secondary);
+}
+.projects1_img_con, .projects2_img_con, .projects3_img_con{
+    box-shadow: 0 8px 32px 0 var(--Primary);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border: 1px solid var(--Secondary);
+}
+.send:hover{
+    background-color: var(--Secondary);
+    box-shadow: 0 8px 32px 0 var(--Accent);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+}
+.cancel:hover{
+    background-color: var(--Secondary);
+    box-shadow: 0 8px 32px 0 var(--Accent);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+}

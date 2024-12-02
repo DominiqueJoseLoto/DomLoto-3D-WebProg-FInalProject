@@ -1,0 +1,234 @@
+.Nav-links{
+    width: 100dvw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 1rem 0rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.Nav-links a{
+    padding: 0.5rem 4rem;
+    text-decoration: none;
+}
+.Hero-content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100dvw;
+    padding: 10rem 0rem;
+}
+.Hero-content img{
+    height: fit-content;
+    width: fit-content;
+}
+.Hero-content .Hero-info{
+    padding: 5rem 2rem;
+    margin-top: 2rem;
+    width: 50%;
+    height: fit-content;
+    align-content: center;
+}
+.aboutBtn, .skillsBtn, .ContactBtn{
+    border-radius: 30px;
+    padding: 0.5rem 2rem;
+}
+.ContactBtn{
+    margin-left: 605px;
+    margin-bottom: 2rem;
+}
+.about{
+    width: 100%;
+    padding: 10rem 0rem;
+}
+.about_me{
+    justify-content: space-between;
+    display: flex;
+}
+.about_me_info{
+    width: 75%;
+    padding: 2rem;
+}
+.about_me_info h2{
+    text-align: center;
+}
+.about_me_info p{
+    text-align: justify;
+}
+.about_me_img{
+    width: 25%;
+    text-align: center;
+    background-image: url(images/Doms-transparent-bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.languages img{
+    height: 120px;
+}
+.Skills{
+    padding: 10rem 0rem;
+    width: 100dvw;
+}
+.Skills h1, .Skills p{
+    text-align: center;
+}
+.Skills p{
+    margin-bottom: 40px;
+}
+.Skills #ProjBTN{
+    margin-bottom: 2rem;
+    padding: 0.5rem 2rem;
+    margin-left: 600px;
+    border-radius: 30px;
+}
+
+.languages{
+    display: flex;
+    justify-content: space-between;
+}
+.lang1-con,
+.lang2-con,
+.lang3-con,
+.lang4-con{
+    text-align: center;
+    padding: 1rem;
+}
+.lang1-con img,
+.lang2-con img,
+.lang3-con img,
+.lang4-con img{
+    width: 40%;
+    height: 40%;
+}
+.lang1,
+.lang2,
+.lang3,
+.lang4{
+    text-align: center;
+    width: 330px;
+    height: 32rem;
+}
+.lang1-info,
+.lang2-info,
+.lang3-info,
+.lang4-info{
+    padding: 1rem;
+    height: fit-content;
+}
+
+.lang1-info p,
+.lang2-info p,
+.lang3-info p,
+.lang4-info p{
+    text-align: center;
+}
+.Projects{
+    width: 100%;
+    padding: 2rem 0rem;
+}
+.Projects h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.projects1,
+.projects2,
+.projects3{
+    display: flex;
+    height: 200px;
+    margin-top: 30px;
+}
+.projects1_img_con,
+.projects2_img_con,
+.projects3_img_con{
+    width: 50%;
+    height: 200px;
+}
+.projects1_img_con{
+    background-image: url(images/carabaocart.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.projects2_img_con{
+    background-image: url(images/game.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.projects3_img_con{
+    background-image: url(images/fireguardian.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.projects1_info,
+.projects2_info,
+.projects3_info{
+    width: 50%;
+    background-color: black;
+}
+.projects1_info h3,
+.projects2_info h3,
+.projects3_info h3{
+    text-align: center;
+}
+.contact-me{
+    width: 100dvw;
+    padding: 4rem 0rem;
+}
+.contact-me h2{
+    padding: 2rem 0rem;
+    text-align: center;
+}
+.contact-con{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.form-con{
+    padding: 2rem;
+    width: 50%;
+    justify-content: center;
+    border: 2px solid black;
+}
+.socials{
+    padding: 4rem;
+    height: 200px;
+    border: 2px solid black;
+}
+.socials a{
+        text-decoration: none;
+}
+#fname, #lname{
+    width: 300px;
+    padding: 0.5rem 0rem;
+}
+#email{
+    width: 604px;
+    padding: 0.5rem 0rem;
+}
+#message{
+    width: 604px;
+    padding: 0.2rem 0rem;
+    padding-bottom: 200px;
+}
+.email-con, .message-con{
+    margin-top: 1rem;
+}
+.send, .cancel{
+    margin-left: 4rem;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 0.5rem 5rem;
+}
+.fix-font, .add-colors, .fix-pos{
+    padding: 0.5rem 2rem;
+}
+
+.fb a, .email a, .pnum a{
+    margin-left: 0.5rem;
+}
+.footer-con{
+    text-align: center;
+}

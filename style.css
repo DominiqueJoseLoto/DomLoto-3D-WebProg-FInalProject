@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Nav-links a{
+    text-decoration: none;
+}
+:root{
+    --Primary: #2A2A2A;
+    --Secondary: #F2F2F2;
+    --Accent: #FFC107;
+}
+body{
+    height: 100dvh;
+    width: 100dvw;
+}
+.Startup{
+    padding: 12rem;
+    text-align: center;
+}
+.Startup-info{
+    background: var(--Secondary);
+    border: 1px solid var(--Primary);
+    padding: 5rem;
+    height: fit-content;
+    width: fit-content;
+}
+.Startup .Startup-info h1{
+    text-align: center;
+}
+#showHero{
+    padding: 4px 20px;
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+footer{
+    display: none;
+}
